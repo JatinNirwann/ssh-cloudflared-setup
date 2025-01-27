@@ -45,7 +45,7 @@ try {
 
     # SSH Configuration Content
     $configContent = @"
-Host pissh.lelouchoncouch.in
+Host ssh.lelouchoncouch.in
     ProxyCommand C:\Windows\System32\cloudflared.exe access ssh --hostname %h
     User jatin
     StrictHostKeyChecking no
