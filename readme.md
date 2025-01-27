@@ -3,7 +3,7 @@
 This tool helps configure SSH access for a remote machine that you're accessing from outside your home network through a Cloudflared tunnel. It automatically sets up all the necessary components to enable secure remote SSH access to your machine through Cloudflare's infrastructure.
 
 ⚠️ **IMPORTANT**: Before running the script, you need to modify the following in `setup-ssh.ps1`:
-- Change the host address (`pissh.lelouchoncouch.in`) to your server's domain
+- Change the host address (`ssh.lelouchoncouch.in`) to your server's domain
 - Change the username (`jatin`) to your server's username
 
 Automatically configures:
