@@ -49,6 +49,6 @@ cd ssh-cloudflared-setup
 2. Creates .ssh directory if it doesn't exist
 3. Configures SSH for accessing your remote machine through Cloudflare tunnel
 4. Sets up necessary proxy commands for external access
-
+    
 ## Security
 The script is open source - feel free to review the code before running it.
